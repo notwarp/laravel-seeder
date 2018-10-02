@@ -1,6 +1,6 @@
 {
-  "name": "eighty8/laravel-seeder",
-  "description": "Versioned, environment-based Seeders in Laravel",
+  "name": "diegohq/laravel-seeder",
+  "description": "Versioned, environment-based Seeders in Laravel. Used while original does not update to Laravel 5.7",
   "keywords": [
     "data",
     "database",
