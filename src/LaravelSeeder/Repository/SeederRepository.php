@@ -246,4 +246,13 @@ class SeederRepository implements SeederRepositoryInterface
                 ->orderBy('migration', 'asc')
                 ->pluck('batch', 'migration')->all();
     }
+    
+    /**
+     * Delete the migration repository data store.
+     *
+     * @return void
+     */
+    public function deleteRepository() {
+        //   
+    }
 }
