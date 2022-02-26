@@ -21,7 +21,7 @@ Installation
 ============
 
 - Run ```composer require eighty8/laravel-seeder```
-- Add ```Eighty8\LaravelSeeder\SeederServiceProvider::class``` to your providers array in ```app/config/app.php```
+- Add ```LucaTerribili\LaravelSeeder\SeederServiceProvider::class``` to your providers array in ```app/config/app.php```
 - Run ```php artisan vendor:publish``` to push config files to your config folder if you want to override the name of the seeds folder or the name of the table where seeds are stored
 
 

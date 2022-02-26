@@ -1,19 +1,19 @@
 <?php
 
-namespace Eighty8\LaravelSeeder;
+namespace LucaTerribili\LaravelSeeder;
 
-use Eighty8\LaravelSeeder\Command\SeedInstall;
-use Eighty8\LaravelSeeder\Command\SeedMake;
-use Eighty8\LaravelSeeder\Command\SeedRefresh;
-use Eighty8\LaravelSeeder\Command\SeedReset;
-use Eighty8\LaravelSeeder\Command\SeedRollback;
-use Eighty8\LaravelSeeder\Command\SeedRun;
-use Eighty8\LaravelSeeder\Command\SeedStatus;
-use Eighty8\LaravelSeeder\Migration\SeederMigrationCreator;
-use Eighty8\LaravelSeeder\Migration\SeederMigrator;
-use Eighty8\LaravelSeeder\Migration\SeederMigratorInterface;
-use Eighty8\LaravelSeeder\Repository\SeederRepository;
-use Eighty8\LaravelSeeder\Repository\SeederRepositoryInterface;
+use LucaTerribili\LaravelSeeder\Command\SeedInstall;
+use LucaTerribili\LaravelSeeder\Command\SeedMake;
+use LucaTerribili\LaravelSeeder\Command\SeedRefresh;
+use LucaTerribili\LaravelSeeder\Command\SeedReset;
+use LucaTerribili\LaravelSeeder\Command\SeedRollback;
+use LucaTerribili\LaravelSeeder\Command\SeedRun;
+use LucaTerribili\LaravelSeeder\Command\SeedStatus;
+use LucaTerribili\LaravelSeeder\Migration\SeederMigrationCreator;
+use LucaTerribili\LaravelSeeder\Migration\SeederMigrator;
+use LucaTerribili\LaravelSeeder\Migration\SeederMigratorInterface;
+use LucaTerribili\LaravelSeeder\Repository\SeederRepository;
+use LucaTerribili\LaravelSeeder\Repository\SeederRepositoryInterface;
 use Illuminate\Support\Composer;
 use Illuminate\Support\ServiceProvider;
 

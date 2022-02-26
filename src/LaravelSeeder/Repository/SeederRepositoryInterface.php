@@ -1,6 +1,6 @@
 <?php
 
-namespace Eighty8\LaravelSeeder\Repository;
+namespace LucaTerribili\LaravelSeeder\Repository;
 
 use Illuminate\Database\Migrations\MigrationRepositoryInterface;
 
