@@ -1,8 +1,8 @@
 <?php
 
-namespace Eighty8\LaravelSeeder\Migration;
+namespace LucaTerribili\LaravelSeeder\Migration;
 
-use Eighty8\LaravelSeeder\Repository\SeederRepositoryInterface;
+use LucaTerribili\LaravelSeeder\Repository\SeederRepositoryInterface;
 use Illuminate\Database\ConnectionResolverInterface;
 use Illuminate\Database\Migrations\Migrator;
 use Illuminate\Filesystem\Filesystem;

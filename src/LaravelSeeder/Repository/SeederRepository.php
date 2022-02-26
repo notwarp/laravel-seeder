@@ -1,6 +1,6 @@
 <?php
 
-namespace Eighty8\LaravelSeeder\Repository;
+namespace LucaTerribili\LaravelSeeder\Repository;
 
 use Illuminate\Database\Connection;
 use Illuminate\Database\ConnectionResolverInterface;
@@ -233,7 +233,7 @@ class SeederRepository implements SeederRepositoryInterface
     {
         return $this->table()->get()->toArray();
     }
-    
+
     /**
      * Get the completed migrations with their batch numbers.
      *
@@ -246,13 +246,13 @@ class SeederRepository implements SeederRepositoryInterface
                 ->orderBy('migration', 'asc')
                 ->pluck('batch', 'migration')->all();
     }
-    
+
     /**
      * Delete the migration repository data store.
      *
      * @return void
      */
     public function deleteRepository() {
-        //   
+        //
     }
 }

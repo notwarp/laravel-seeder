@@ -1,8 +1,8 @@
 <?php
 
-namespace Eighty8\LaravelSeeder\Command;
+namespace LucaTerribili\LaravelSeeder\Command;
 
-use Eighty8\LaravelSeeder\Migration\SeederMigratorInterface;
+use LucaTerribili\LaravelSeeder\Migration\SeederMigratorInterface;
 use Illuminate\Console\Command;
 
 abstract class AbstractSeedMigratorCommand extends Command

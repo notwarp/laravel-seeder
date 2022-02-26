@@ -1,6 +1,6 @@
 <?php
 
-namespace Eighty8\LaravelSeeder\Command;
+namespace LucaTerribili\LaravelSeeder\Command;
 
 use Illuminate\Console\ConfirmableTrait;
 use Symfony\Component\Console\Input\InputOption;

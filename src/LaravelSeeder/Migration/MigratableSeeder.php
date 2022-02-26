@@ -1,6 +1,6 @@
 <?php
 
-namespace Eighty8\LaravelSeeder\Migration;
+namespace LucaTerribili\LaravelSeeder\Migration;
 
 use Illuminate\Database\Seeder;
 

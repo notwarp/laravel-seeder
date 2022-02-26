@@ -1,6 +1,6 @@
 <?php
 
-namespace Eighty8\LaravelSeeder\Command;
+namespace LucaTerribili\LaravelSeeder\Command;
 
 use Illuminate\Support\Collection;
 use Symfony\Component\Console\Input\InputOption;
